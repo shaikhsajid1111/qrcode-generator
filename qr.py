@@ -4,6 +4,7 @@ from tkinter import ttk
 import ttkthemes            #3rd party library, install : pip install ttkthemes
 import pyqrcode                         #3rd party library, install : pip install pyrcode
 import os
+from tkinter import messagebox
 
 class Qr_code_generator:
 
@@ -15,6 +16,7 @@ class Qr_code_generator:
         file = filedialog.asksaveasfile(mode = 'wb',defaultextension = ".png",filetypes = (("Portable Network Graphics","*.png"), ("All Files","*.*")))
         if file:
             qr.png(file, scale=8)
+            messagebox.showinfo("Succesfully Saved!","File has been Saved")
         return
     #method to create GUI window    
     def create_window(self,width,height):
