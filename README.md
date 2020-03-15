@@ -4,5 +4,8 @@
 # Requires:
 - [pyqrcode](https://pypi.org/project/PyQRCode/) Library (pip install pyqrcode)
 - [ttkthemes](https://pypi.org/project/ttkthemes/) Library (pip install ttkthemes)
+- [PIL](https://pypi.org/project/Pillow/)
+![](screenshot/Capture.PNG)(https://pypi.org/project/Pillow/)
 
-![](screenshot/Capture.PNG)
+## LICENSE
+MIT  
